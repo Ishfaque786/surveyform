@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title" >Servey farm></title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+        <main>
+            <header>
+            <h1 id="description">Farmers Protest 2020 Survey</h1>
+            <p>We are doing this survey to know public thoughts about former laws</p>
+        </header> 
+            <form id="survey-form" action="">
+                <div class="binfo">
+                <label id="name-label" class="binfo" >Name
+                    <input id="name" name="name" type="text" class="info" placeholder="Name" required>
+
+                </label>
+                <label id="email-label" class="binfo">Email
+                    <input id="email" class="info" name="email" type="email" placeholder="Email" required>
+
+                </label>
+                <label id="number-label" class="binfo" >Number(optional)
+                    <input id="number" 
+                    name="number" 
+                    type="number"
+                    class="info"
+                     placeholder="Number" 
+                     min="1000000000" 
+                     max="9999999999">
+                    </div>
+
+                <div class="form-group">
+                    <p>What is your profession</p>
+                    <select id="dropdown" name="profession" class="form-control" required>
+                      <option disabled selected value>Select current role</option>
+                      <option value="Farmer">Farmer</option>
+                      <option value="job">Govt or Privet Job</option>
+                      <option value="Busnissman">Busnissman</option>
+                      <option value="student">Student</option>
+                      <option value="other">Other</option>
+                    </select>
+                </div>
+                      
+                <div class="form-group">
+                    <p>According to you farmer law are </p>
+                    <label>
+                    <input
+                        name="user-recommend"
+                        value="Right"
+                        type="radio"
+                        class="input-radio"
+                        checked
+                    />Right</label
+                    >
+                    <label>
+                    <input
+                        name="user-recommend"
+                        value="Wrong"
+                        type="radio"
+                        class="input-radio"
+                        checked
+                    />Wrong</label
+                    >
+            
+                    <label
+                    ><input
+                        name="user-recommend"
+                        value="not-sure"
+                        type="radio"
+                        class="input-radio"
+                    />Not sure</label
+                    >
+                </div>
+            
+                <div class="form-group">
+                    <p>
+                    What is your favorite feature of freeCodeCamp?
+                    </p>
+                    <select id="most-like" name="mostLike" class="form-control" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <p>
+                    Which media channel you watch?
+                    <span class="clue">(Check all that apply)</span>
+                    </p>
+            
+                    <label
+                    ><input
+                        name="prefer"
+                        value="NDTV"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />NDTV</label
+                    >
+                    <label>
+                    <input
+                        name="prefer"
+                        value="BBC"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />BBC</label
+                    >
+                    <label
+                    ><input
+                        name="prefer"
+                        value="Znews"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Znews</label
+                    >
+                    <label
+                    ><input
+                        name="prefer"
+                        value="Aajtak"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Aajtak</label
+                    >
+                    <label
+                    ><input
+                        name="prefer"
+                        value="India Today"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />India Today</label
+                    >
+                    <label
+                    ><input
+                        name="prefer"
+                        value="Republice Bharet"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Republice Bharet</label
+                    >
+                    <label
+                    ><input
+                        name="prefer"
+                        value="TimesNow"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />TimesNow</label
+                    >
+                    <label
+                    ><input
+                        name="prefer"
+                        value="YouTube Media Channel"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />YouTube Media Channel</label
+                    ><div>
+                        <p>
+                            Write your Opinion
+                        
+                        </p>
+                        <textarea id="comments"
+                        class="input-textarea"
+                        name="comment"
+                        placeholder="Enter your comment here..."></textarea>
+                    </div>
+                    
+            
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                    Submit
+                    </button>
+                                
+                            </div>
+                
+
+            </form>
+        </main>
+    </body>
+</html>

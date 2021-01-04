@@ -1,0 +1,81 @@
+html{
+    font-size: 20px;
+    font-weight: bold;
+}
+:root{
+    --form-color: rgba(58, 165, 147, 0.541);
+    --item-color:rgba(127, 255, 227, 0.562);
+}
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(20, 2, 3);
+}
+main{
+    
+    margin: 0 20px;
+    border-radius: 10px;
+    background: url("background.jpg");
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 1000;
+}
+p{
+    font-size: 1.2em;
+}
+#survey-form{
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background-color:var(--form-color);
+
+}
+label{
+    display: flex;
+}
+.binfo{
+display:flex ;
+flex-direction: column;
+}
+.info{
+    height: 25px;
+    background-color:  var(--item-color);
+
+}
+.form-control{
+    height: 25px;
+    background-color: rgb(127, 255, 227);
+}
+.form-group{
+    line-height: 1.5em;
+}
+.input-textarea{
+width: 100%;
+height: 100px;
+border-radius: 5px;
+background-color:  var(--item-color)
+}
+.submit-button {
+    display: block;
+    width: 50%;
+    padding: 0.75rem;
+    background: rgba(194, 181, 5, 0.733);
+    color: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 25px auto;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .info:hover, .input-textarea:hover{
+    background-color: whitesmoke;
+}
