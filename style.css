@@ -39,6 +39,16 @@ p{
     background-color:var(--form-color);
 
 }
+@media (max-width:1000px){
+    #survey-form{
+        width: 85vw;
+        margin: 0;
+    }
+    main{
+        padding: 0;
+    }
+    
+}
 label{
     display: flex;
 }
@@ -50,6 +60,11 @@ flex-direction: column;
     height: 25px;
     background-color:  var(--item-color);
 
+}
+@media (max-width:1000px){
+    .info{
+        width: 100%;
+    }
 }
 .form-control{
     height: 25px;
